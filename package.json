@@ -1,19 +1,16 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": "Caleb Rauscher",
-	"description": "Add a Description to package.json",
-	"keywords": ["freecodecamp", "backend", "development", "API"],
-	"license": "free-for-all",
-	"version": "1.0.0",
+	"name": "fcc-learn-node-with-express",
+	"version": "0.1.0",
 	"dependencies": {
-		"express": "^4.14.0"
+		"body-parser": "^1.15.2",
+		"cookie-parser": "^1.4.3",
+		"dotenv": "^10.0.0",
+		"express": "^4.14.0",
+		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git",
+		"dotenv": "^8.2.0"
 	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
 	}
 }
